@@ -1,0 +1,251 @@
+main {
+  #main-first {
+    background-image: url("https://preview.colorlib.com/theme/winter/img/banner_img.png");
+    background-position: center;
+    background-size: cover;
+    .herobanner {
+      height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+      .herobanner-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        span {
+          font-size: 1.7rem;
+        }
+        h1 {
+          span {
+            font-size: 5rem;
+            width: 300px;
+            font-weight: 600;
+          }
+          font-size: 5rem;
+          width: 700px;
+          font-weight: 600;
+        }
+        button {
+          width: 190px;
+          padding: 1.2rem 0.8rem;
+          border: none;
+          background-color: #4084fc;
+          color: white;
+          transition: 0.6s;
+          &:hover {
+            background-color: #fff;
+            color: #4084fc;
+          }
+        }
+      }
+    }
+  }
+  #main-category{
+
+    .row{
+        padding:1rem;   
+        .col-4{
+            overflow: hidden;
+        }
+        .card-1{
+            background-image: url('https://preview.colorlib.com/theme/winter/img/feature_1.png');
+        }
+        .card-2{
+            background-image: url('https://preview.colorlib.com/theme/winter/img/feature_2.png');
+        }
+        .card-3{
+            background-image: url('https://preview.colorlib.com/theme/winter/img/feature_3.png');
+        }
+        .card{
+            width:100%;
+            background-position: center;
+            background-size: cover;
+            height:75vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.6s;
+
+            .card-text{
+                padding:0.8rem 1rem;
+                background-color: #fff;
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+   
+
+}
+#main-dynamic{
+    .row{
+        padding:1rem;
+        .card{
+            padding:1rem;
+            width:100%;
+            height:60vh;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+           
+            .card-text{
+                width:100%;
+                height:100%;
+                display:none;
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap:1.4rem;
+                color:white;
+                .card-btns{
+                    ul{
+                        display:flex;
+                        gap:1rem;
+                        li{
+                            button{
+                                border:none;
+                                background-color: transparent;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            &:hover .card-text{
+                background-color:#4084fc;
+                opacity: 0.7;
+                display:flex;
+            }
+            
+        }
+    }   
+}
+}
+@media only screen and (max-width: 767px) {
+  main {
+    #main-first {
+      background-image: url("https://preview.colorlib.com/theme/winter/img/banner_img.png");
+      background-position: center;
+      background-size: cover;
+      .herobanner {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem;
+        .herobanner-text {
+          display: flex;
+          flex-direction: column;
+          gap: 1.3rem;
+          span {
+            font-size: 1.2rem;
+          }
+          h1 {
+            span {
+              font-size: 2rem;
+              font-weight: 600;
+            }
+            font-size: 2rem;
+            font-weight: 600;
+          }
+          button {
+            width: 150px;
+            padding: 0.9rem 0.8rem;
+            border: none;
+            background-color: #4084fc;
+            color: white;
+            transition: 0.6s;
+            &:hover {
+              background-color: #fff;
+              color: #4084fc;
+            }
+          }
+        }
+      }
+    }
+    #main-category{
+        .row{
+            padding:1rem;
+            gap:1rem;
+            .card-1{
+                background-image: url('https://preview.colorlib.com/theme/winter/img/feature_1.png');
+            }
+            .card-2{
+                background-image: url('https://preview.colorlib.com/theme/winter/img/feature_2.png');
+            }
+            .card-3{
+                background-image: url('https://preview.colorlib.com/theme/winter/img/feature_3.png');
+            }
+            .card{
+                width:100%;
+                background-position: center;
+                background-size: cover;
+                height:46vh;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                .card-text{
+                    padding:0.8rem 1rem;
+                    background-color: #fff;
+                }
+            }
+        }
+       
+    }
+    #main-dynamic{
+        .row{
+            padding:1rem;
+            gap:1rem;
+            .card{
+                width:100%;
+                height:60vh;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+               
+                .card-text{
+                    width:100%;
+                    height:100%;
+                    display:none;
+                    text-align: center;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap:1.4rem;
+                    color:white;
+                    .card-btns{
+                        ul{
+                            display:flex;
+                            gap:1rem;
+                            li{
+                                button{
+                                    border:none;
+                                    background-color: transparent;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                &:hover .card-text{
+                    background-color:#4084fc;
+                    opacity: 0.7;
+                    display:flex;
+                }
+                
+            }
+        }   
+    }
+  }
+}

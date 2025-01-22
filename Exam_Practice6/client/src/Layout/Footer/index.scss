@@ -1,0 +1,113 @@
+footer{
+    #footer{
+        background-color: black;
+        color:white;
+        padding:4rem 1rem;
+        h2{
+            margin-bottom:1rem;
+            font-weight: 500;
+        }
+        ul{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:0.5rem;
+            margin-bottom:2.4rem;
+        }
+        a{
+            text-decoration: none;
+            color:#2978FF;
+        }
+        #newsletter{
+            margin-top:2rem;
+        }
+        .footerInput{
+            margin-bottom: 2rem;
+            input{
+                padding:0.8rem 1rem;
+                border:none;
+                width:250px;
+                background-color: transparent;
+                border:1px solid#2978FF;
+            }
+            button{
+                padding:0.8rem 1rem;
+                border:1px solid #2978FF ;
+                background-color:#2978FF;
+                color:white;
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            
+            
+        }
+        .icons{
+            ul{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 1.3rem;
+                gap:2rem;
+                width:45%;
+                li{
+                    width:100%;
+                    height:100%;
+                    border:1px solid white;
+                    border-radius: 50%;
+                    padding:0.4rem 0.5rem;
+                    text-align: center;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px){
+    footer{
+        #footer{
+            .footerInput{
+                margin-bottom: 2rem;
+                input{
+                    padding:0.8rem 1rem;
+                    border:none;
+                    width:298px;
+                    background-color: transparent;
+                    border:1px solid#2978FF;
+                }
+                button{
+                    padding:0.8rem 1rem;
+                    border:1px solid #2978FF ;
+                    background-color:#2978FF;
+                    color:white;
+                    &:hover{
+                        background-color: transparent;
+                    }
+                }
+                
+                
+            }
+            .icons{
+                ul{
+                    display:flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    font-size: 1.3rem;
+                    gap:2rem;
+                    width:45%;
+                    li{
+                        width:100%;
+                        height:100%;
+                        border:1px solid white;
+                        border-radius: 50%;
+                        padding:0.4rem 0.5rem;
+                        text-align: center;
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+}
